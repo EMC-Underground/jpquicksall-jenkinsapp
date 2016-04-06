@@ -1,0 +1,15 @@
+{
+  "name": "jpquicksall-jenkinsapp",
+  "version": "0.1.0",
+  "author": "jpquicksall",
+  "summary": "Module for a jenkins app server",
+  "license": "Apache-2.0",
+  "source": "https://github.com/EMC-Underground/jpquicksall-jenkinsapp",
+  "project_page": "https://github.com/EMC-Underground/jpquicksall-jenkinsapp",
+  "issues_url": "https://github.com/EMC-Underground/jpquicksall-jenkinsapp/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+
