@@ -12,6 +12,8 @@
 # Explanation of what this parameter affects and what it defaults to.
 # e.g. "Specify one or more upstream ntp servers as an array."
 #
+# * `node_os`
+#
 # Variables
 # ----------
 #
@@ -35,14 +37,15 @@
 # Authors
 # -------
 #
-# Author Name <author@domain.com>
+# JP Quicksall <john.paul.quicksall@gmail.com>
 #
 # Copyright
 # ---------
 #
-# Copyright 2016 Your name here, unless otherwise noted.
+# Copyright 2016 JP Quicksall.
 #
-class jenkinsapp {
+class jenkinsapp (
 
+) inherits jenkinsapp::params {
 
 }
